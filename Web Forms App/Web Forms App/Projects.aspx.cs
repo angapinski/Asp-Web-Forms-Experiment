@@ -7,13 +7,11 @@ using System.Web.UI.WebControls;
 
 namespace Web_Forms_App
 {
-    public partial class About : Page
+    public partial class Projects : Page
     {
-        public List<string> pageElements = new List<string>();
-
         protected void Page_Load(object sender, EventArgs e)
         {
-            pageElements.Add("Hello World");
+
         }
     }
 }
