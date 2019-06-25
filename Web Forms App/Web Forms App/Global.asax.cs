@@ -16,6 +16,8 @@ namespace Web_Forms_App
             // Code that runs on application startup
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
+
+            //Insert Class initialization here
         }
     }
 }

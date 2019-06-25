@@ -1,11 +1,14 @@
 ﻿<%@ Page Title="Andrew Gapinski" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="Web_Forms_App._Default" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
+    <link href="Content/Default.css" rel="stylesheet" />
+    <body style="background-image:url(Content/Images/wallpaperBackground.jpg); background-size: cover">
 
-    <div class="jumbotron">
-        <h1>ASP.NET</h1>
+        
+    <div class="home-jumbotron jumbotron">
+        <h1>Andrew Gapinski</h1>
+        <h2>Software Solutions</h2>
         <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS, and JavaScript.</p>
-        <p><a href="http://www.asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
     </div>
 
     <div class="row">
@@ -38,5 +41,6 @@
             </p>
         </div>
     </div>
+    </body>
 
 </asp:Content>
