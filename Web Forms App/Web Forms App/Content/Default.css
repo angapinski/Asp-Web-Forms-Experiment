@@ -1,4 +1,11 @@
-﻿.home-jumbotron{
-    background-color: darkgrey;
+﻿.default-jumbotron{
+    background-color: green;
     text-align: center;
+    color: #333;
+}
+
+.default-background-image {
+    background-color: black;
+    background-image: url(Images/wallpaperBackground.jpg);
+    background-size: cover;
 }
