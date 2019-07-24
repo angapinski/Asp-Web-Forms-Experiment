@@ -14,7 +14,6 @@
 
     <webopt:bundlereference runat="server" path="~/Content/css" />
     <link href="~/Content/Images/AGfavicon.png" rel="shortcut icon" type="image/x-icon" />
-
 </head>
 <body>
     <form runat="server">
@@ -49,7 +48,7 @@
                     <a class="navbar-brand" runat="server" href="~/">Andrew Gapinski</a>
                 </div>
                 <div class="navbar-collapse collapse">
-                    <ul class="nav navbar-nav">
+                    <ul class="nav navbar-nav navbar-right">
                         <li><a runat="server" href="~/">Home</a></li>
                         <li><a runat="server" href="~/About">About</a></li>
                         <li><a runat="server" href="~/Projects">Projects</a></li>
