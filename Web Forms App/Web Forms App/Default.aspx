@@ -4,12 +4,7 @@
     <link href="Content/Default.css" rel="stylesheet" />
     <body class="default-background-image">
         <div >
-            <div class="home-jumbotron jumbotron">
-                <h1>Andrew Gapinski</h1>
-                <h2>Software Solutions</h2>
-            </div>
 
-            <p> this is a test</p>
         </div>
     </body>
 

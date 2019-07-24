@@ -9,4 +9,9 @@
     <% } %>
 
     <p>Use this area to provide additional information.</p>
+
+    <hr />
+    <footer>
+        <p>&copy; <%: DateTime.Now.Year %> - Andrew Gapinski</p>
+    </footer>
 </asp:Content>
